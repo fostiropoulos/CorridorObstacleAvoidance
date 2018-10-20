@@ -16,18 +16,18 @@ Determines clearance on left and right such as the image below:
 Observe the left green and right orange line, the clearance is for an infinitely tall object, hence the lines stop and take into consideration the uneven width of the object into calculating the clearance. The clearance then is the minimum distance between the object and corridor.
 ### EDA
 
-CorridorAvoidanceEDA.ipynb
+`CorridorAvoidanceEDA.ipynb`
 
 ### Python Utility Requirements
 
 python 3.x
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 ### Usage
 
-python find_clearance.py filename
+`python find_clearance.py filename`
 
 ### Output
 
