@@ -2,6 +2,10 @@
 Simplified problem of identifying an obstacle in a corridor using signal processing techniques and
 determining if should turn left or right.
 
+Graphical Explanation of the problem:
+![Depth Map](img/Explanation.png?raw=true "Explanation")
+
+### Input
 Provided a depth map such as the one below:
 ![Depth Map](img/index.png?raw=true "Depth Map")
 
@@ -27,4 +31,4 @@ python find_clearance.py filename
 
 ### Output
 
-` [right/left] [clearance in m]
+` [right/left] [clearance in m] `
