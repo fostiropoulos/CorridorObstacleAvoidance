@@ -8,15 +8,18 @@ Graphical Explanation of the problem:
 ### Input
 
 From an Original Image, using various techniques we can generate a Depth Map. The original Image could look like:
+<p align="center">
 ![Original Image](img/original.png?raw=true "Original Image")
-
+</p>
 Provided a depth map such as the one below:
+<p align="center">
 ![Depth Map](img/index.png?raw=true "Depth Map")
+</p>
 
 Determines clearance on left and right such as the image below:
-
+<p align="center">
 ![Depth Map](img/index6.png?raw=true "Clearance Detection")
-
+</p>
 Observe the left green and right orange line, the clearance is for an infinitely tall object, hence the lines stop and take into consideration the uneven width of the object into calculating the clearance. The clearance then is the minimum distance between the object and corridor.
 ### EDA
 
