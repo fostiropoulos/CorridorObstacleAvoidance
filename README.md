@@ -21,6 +21,8 @@ Determines clearance on left and right such as the image below:
   <img src="img/index6.png">
 </p>
 Observe the left green and right orange line, the clearance is for an infinitely tall object, hence the lines stop and take into consideration the uneven width of the object into calculating the clearance. The clearance then is the minimum distance between the object and corridor.
+
+
 ### EDA
 
 `CorridorAvoidanceEDA.ipynb`
