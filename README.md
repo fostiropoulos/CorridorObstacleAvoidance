@@ -6,6 +6,8 @@ Graphical Explanation of the problem:
 ![Depth Map](img/Explanation.png?raw=true "Explanation")
 
 ### Input
+From an Original Image, using various techniques we can generate a Depth Map. The original Image could look like:
+![Original Image](img/original.png?raw=true "Original Image")
 Provided a depth map such as the one below:
 ![Depth Map](img/index.png?raw=true "Depth Map")
 
