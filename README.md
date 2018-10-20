@@ -13,14 +13,12 @@ From an Original Image, using various techniques we can generate a Depth Map. Th
 </p>
 Provided a depth map such as the one below:
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
-![Depth Map](img/index.png?raw=true "Depth Map")
+  <img src="img/index.png">
 </p>
 
 Determines clearance on left and right such as the image below:
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
-![Depth Map](img/index6.png?raw=true "Clearance Detection")
+  <img src="img/index6.png">
 </p>
 Observe the left green and right orange line, the clearance is for an infinitely tall object, hence the lines stop and take into consideration the uneven width of the object into calculating the clearance. The clearance then is the minimum distance between the object and corridor.
 ### EDA
